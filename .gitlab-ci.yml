@@ -1,4 +1,8 @@
-test-job:
+build-job:
+  image: node
   script:
-    - echo "This is my first job!"
-    - date
+    -npm install
+    -npm run build
+  artifacts:
+    paths:
+      - "build/"
