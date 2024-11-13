@@ -1,0 +1,5 @@
+{
+  "blogBasePath": "/my-pipeline-tutorial-project/blog",
+  "blogTitle": "Blog",
+  "authorsListPath": "/my-pipeline-tutorial-project/blog/authors"
+}

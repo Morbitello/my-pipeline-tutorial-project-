@@ -1,0 +1,316 @@
+{
+  "/my-pipeline-tutorial-project/__docusaurus/debug-727": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---my-pipeline-tutorial-project-docusaurus-debugb-38-d49"
+    }
+  },
+  "/my-pipeline-tutorial-project/__docusaurus/debug/config-518": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---my-pipeline-tutorial-project-docusaurus-debugb-38-d49"
+    }
+  },
+  "/my-pipeline-tutorial-project/__docusaurus/debug/content-a17": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---my-pipeline-tutorial-project-docusaurus-debugb-38-d49"
+    },
+    "__props": "__props---my-pipeline-tutorial-project-docusaurus-debug-content-761-665"
+  },
+  "/my-pipeline-tutorial-project/__docusaurus/debug/globalData-e0b": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---my-pipeline-tutorial-project-docusaurus-debugb-38-d49"
+    }
+  },
+  "/my-pipeline-tutorial-project/__docusaurus/debug/metadata-e0b": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---my-pipeline-tutorial-project-docusaurus-debugb-38-d49"
+    }
+  },
+  "/my-pipeline-tutorial-project/__docusaurus/debug/registry-659": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---my-pipeline-tutorial-project-docusaurus-debugb-38-d49"
+    }
+  },
+  "/my-pipeline-tutorial-project/__docusaurus/debug/routes-748": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---my-pipeline-tutorial-project-docusaurus-debugb-38-d49"
+    }
+  },
+  "/my-pipeline-tutorial-project/blog-c76": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---my-pipeline-tutorial-project-blog-369-f73"
+    },
+    "sidebar": "sidebar---my-pipeline-tutorial-project-blog-814-ce3",
+    "items": [
+      {
+        "content": "content---my-pipeline-tutorial-project-blog-766-6e4"
+      },
+      {
+        "content": "content---my-pipeline-tutorial-project-blogf-4-f-1a5"
+      },
+      {
+        "content": "content---my-pipeline-tutorial-project-blog-871-580"
+      },
+      {
+        "content": "content---my-pipeline-tutorial-project-blog-925-774"
+      }
+    ],
+    "__props": "__props---my-pipeline-tutorial-project-blogbad-aed"
+  },
+  "/my-pipeline-tutorial-project/blog/archive-ad0": {
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__context": {
+      "plugin": "plugin---my-pipeline-tutorial-project-blog-369-f73"
+    },
+    "__props": "__props---my-pipeline-tutorial-project-blog-archive-9-d-7-0cd"
+  },
+  "/my-pipeline-tutorial-project/blog/authors-775": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---my-pipeline-tutorial-project-blog-authorsace-22f"
+      },
+      "plugin": "plugin---my-pipeline-tutorial-project-blog-369-f73"
+    },
+    "sidebar": "sidebar---my-pipeline-tutorial-project-blog-814-ce3",
+    "__props": "__props---my-pipeline-tutorial-project-blog-authors-9-de-518"
+  },
+  "/my-pipeline-tutorial-project/blog/authors/all-sebastien-lorber-articles-e45": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---my-pipeline-tutorial-project-blog-authorsace-22f"
+      },
+      "plugin": "plugin---my-pipeline-tutorial-project-blog-369-f73"
+    },
+    "items": [
+      {
+        "content": "content---my-pipeline-tutorial-project-blog-766-6e4"
+      },
+      {
+        "content": "content---my-pipeline-tutorial-project-blogf-4-f-1a5"
+      },
+      {
+        "content": "content---my-pipeline-tutorial-project-blog-925-774"
+      }
+    ],
+    "sidebar": "sidebar---my-pipeline-tutorial-project-blog-814-ce3",
+    "__props": "__props---my-pipeline-tutorial-project-blog-authors-all-sebastien-lorber-articles-3-ce-6e4"
+  },
+  "/my-pipeline-tutorial-project/blog/authors/yangshun-aa0": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---my-pipeline-tutorial-project-blog-authorsace-22f"
+      },
+      "plugin": "plugin---my-pipeline-tutorial-project-blog-369-f73"
+    },
+    "items": [
+      {
+        "content": "content---my-pipeline-tutorial-project-blog-766-6e4"
+      },
+      {
+        "content": "content---my-pipeline-tutorial-project-blog-871-580"
+      },
+      {
+        "content": "content---my-pipeline-tutorial-project-blog-925-774"
+      }
+    ],
+    "sidebar": "sidebar---my-pipeline-tutorial-project-blog-814-ce3",
+    "__props": "__props---my-pipeline-tutorial-project-blog-authors-yangshunba-6-438"
+  },
+  "/my-pipeline-tutorial-project/blog/first-blog-post-a2a": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---my-pipeline-tutorial-project-blog-authorsace-22f"
+      },
+      "plugin": "plugin---my-pipeline-tutorial-project-blog-369-f73"
+    },
+    "sidebar": "sidebar---my-pipeline-tutorial-project-blog-814-ce3",
+    "content": "content---my-pipeline-tutorial-project-blog-first-blog-poste-27-09d"
+  },
+  "/my-pipeline-tutorial-project/blog/long-blog-post-0b6": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---my-pipeline-tutorial-project-blog-authorsace-22f"
+      },
+      "plugin": "plugin---my-pipeline-tutorial-project-blog-369-f73"
+    },
+    "sidebar": "sidebar---my-pipeline-tutorial-project-blog-814-ce3",
+    "content": "content---my-pipeline-tutorial-project-blog-long-blog-post-736-44a"
+  },
+  "/my-pipeline-tutorial-project/blog/mdx-blog-post-5bd": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---my-pipeline-tutorial-project-blog-authorsace-22f"
+      },
+      "plugin": "plugin---my-pipeline-tutorial-project-blog-369-f73"
+    },
+    "sidebar": "sidebar---my-pipeline-tutorial-project-blog-814-ce3",
+    "content": "content---my-pipeline-tutorial-project-blog-mdx-blog-post-593-263"
+  },
+  "/my-pipeline-tutorial-project/blog/tags-8a2": {
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__context": {
+      "plugin": "plugin---my-pipeline-tutorial-project-blog-369-f73"
+    },
+    "sidebar": "sidebar---my-pipeline-tutorial-project-blog-814-ce3",
+    "__props": "__props---my-pipeline-tutorial-project-blog-tagsf-03-c4f"
+  },
+  "/my-pipeline-tutorial-project/blog/tags/docusaurus-125": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---my-pipeline-tutorial-project-blog-369-f73"
+    },
+    "sidebar": "sidebar---my-pipeline-tutorial-project-blog-814-ce3",
+    "items": [
+      {
+        "content": "content---my-pipeline-tutorial-project-blog-766-6e4"
+      },
+      {
+        "content": "content---my-pipeline-tutorial-project-blogf-4-f-1a5"
+      },
+      {
+        "content": "content---my-pipeline-tutorial-project-blog-871-580"
+      },
+      {
+        "content": "content---my-pipeline-tutorial-project-blog-925-774"
+      }
+    ],
+    "__props": "__props---my-pipeline-tutorial-project-blog-tags-docusaurusc-8-e-a8c"
+  },
+  "/my-pipeline-tutorial-project/blog/tags/facebook-127": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---my-pipeline-tutorial-project-blog-369-f73"
+    },
+    "sidebar": "sidebar---my-pipeline-tutorial-project-blog-814-ce3",
+    "items": [
+      {
+        "content": "content---my-pipeline-tutorial-project-blog-766-6e4"
+      }
+    ],
+    "__props": "__props---my-pipeline-tutorial-project-blog-tags-facebook-611-7cc"
+  },
+  "/my-pipeline-tutorial-project/blog/tags/hello-d6c": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---my-pipeline-tutorial-project-blog-369-f73"
+    },
+    "sidebar": "sidebar---my-pipeline-tutorial-project-blog-814-ce3",
+    "items": [
+      {
+        "content": "content---my-pipeline-tutorial-project-blog-766-6e4"
+      },
+      {
+        "content": "content---my-pipeline-tutorial-project-blog-871-580"
+      }
+    ],
+    "__props": "__props---my-pipeline-tutorial-project-blog-tags-hello-318-e64"
+  },
+  "/my-pipeline-tutorial-project/blog/tags/hola-30c": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---my-pipeline-tutorial-project-blog-369-f73"
+    },
+    "sidebar": "sidebar---my-pipeline-tutorial-project-blog-814-ce3",
+    "items": [
+      {
+        "content": "content---my-pipeline-tutorial-project-blog-925-774"
+      }
+    ],
+    "__props": "__props---my-pipeline-tutorial-project-blog-tags-hola-14-f-4e1"
+  },
+  "/my-pipeline-tutorial-project/blog/welcome-34f": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---my-pipeline-tutorial-project-blog-authorsace-22f"
+      },
+      "plugin": "plugin---my-pipeline-tutorial-project-blog-369-f73"
+    },
+    "sidebar": "sidebar---my-pipeline-tutorial-project-blog-814-ce3",
+    "content": "content---my-pipeline-tutorial-project-blog-welcomed-9-f-2bb"
+  },
+  "/my-pipeline-tutorial-project/markdown-page-bad": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---my-pipeline-tutorial-project-markdown-pagea-74-65b"
+    },
+    "content": "content---my-pipeline-tutorial-project-markdown-page-393-5a5"
+  },
+  "/my-pipeline-tutorial-project/docs-38f": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---my-pipeline-tutorial-project-docsaba-59b"
+    }
+  },
+  "/my-pipeline-tutorial-project/docs-805": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---my-pipeline-tutorial-project-docse-0-f-319"
+  },
+  "/my-pipeline-tutorial-project/docs-6e6": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/my-pipeline-tutorial-project/docs/category/tutorial---basics-959": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---my-pipeline-tutorial-project-docs-category-tutorial-basicsef-4-e77"
+  },
+  "/my-pipeline-tutorial-project/docs/category/tutorial---extras-ce3": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---my-pipeline-tutorial-project-docs-category-tutorial-extrasdbe-78a"
+  },
+  "/my-pipeline-tutorial-project/docs/intro-373": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---my-pipeline-tutorial-project-docs-intro-0-e-3-d68"
+  },
+  "/my-pipeline-tutorial-project/docs/tutorial-basics/congratulations-08d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---my-pipeline-tutorial-project-docs-tutorial-basics-congratulations-822-d07"
+  },
+  "/my-pipeline-tutorial-project/docs/tutorial-basics/create-a-blog-post-b7c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---my-pipeline-tutorial-project-docs-tutorial-basics-create-a-blog-post-533-8a9"
+  },
+  "/my-pipeline-tutorial-project/docs/tutorial-basics/create-a-document-70d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---my-pipeline-tutorial-project-docs-tutorial-basics-create-a-document-1-e-4-ac1"
+  },
+  "/my-pipeline-tutorial-project/docs/tutorial-basics/create-a-page-f7a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---my-pipeline-tutorial-project-docs-tutorial-basics-create-a-page-5-c-8-6e3"
+  },
+  "/my-pipeline-tutorial-project/docs/tutorial-basics/deploy-your-site-9ec": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---my-pipeline-tutorial-project-docs-tutorial-basics-deploy-your-sitef-55-1fc"
+  },
+  "/my-pipeline-tutorial-project/docs/tutorial-basics/markdown-features-f2e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---my-pipeline-tutorial-project-docs-tutorial-basics-markdown-features-18-c-b95"
+  },
+  "/my-pipeline-tutorial-project/docs/tutorial-extras/manage-docs-versions-e31": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---my-pipeline-tutorial-project-docs-tutorial-extras-manage-docs-versionsdff-855"
+  },
+  "/my-pipeline-tutorial-project/docs/tutorial-extras/translate-your-site-17d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---my-pipeline-tutorial-project-docs-tutorial-extras-translate-your-sitee-44-2e5"
+  },
+  "/my-pipeline-tutorial-project/-6e5": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---my-pipeline-tutorial-project-markdown-pagea-74-65b"
+    },
+    "config": "config---my-pipeline-tutorial-project-5-e-9-46e"
+  }
+}
