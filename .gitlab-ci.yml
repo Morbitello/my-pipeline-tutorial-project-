@@ -1,8 +1,9 @@
 build-job:
   image: node
   script:
-    -npm install
-    -npm run build
+    - npm install
+    - npm run build
   artifacts:
     paths:
       - "build/"
+
