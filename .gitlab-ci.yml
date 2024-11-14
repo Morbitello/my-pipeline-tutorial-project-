@@ -1,6 +1,6 @@
 stages:
   - build
-  - test               # Add a `test` stage for the test jobs
+  - test
   - deploy
 
 build-job:
@@ -12,33 +12,44 @@ build-job:
   artifacts:
     paths:
       - "build/"
+  rules:
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'  # Run for all changes to a merge request's source branch
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH       # Run for all changes to the default branch
 
 lint-markdown:
   stage: test
   image: node
-  dependencies: []     # Don't fetch any artifacts
+  dependencies: []
   script:
-    - npm install markdownlint-cli2 --global           # Install markdownlint into the container
-    - markdownlint-cli2 -v                             # Verify the version, useful for troubleshooting
-    - markdownlint-cli2 "blog/**/*.md" "docs/**/*.md"  # Lint all markdown files in blog/ and docs/
-  allow_failure: true  # This job fails right now, but don't let it stop the pipeline.
+    - npm install markdownlint-cli2 --global
+    - markdownlint-cli2 -v
+    - markdownlint-cli2 "blog/**/*.md" "docs/**/*.md"
+  allow_failure: true
+  rules:
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'  # Run for all changes to a merge request's source branch
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH       # Run for all changes to the default branch
 
 test-html:
   stage: test
   image: node
   dependencies:
-    - build-job        # Only fetch artifacts from `build-job`
+    - build-job
   script:
-    - npm install --save-dev htmlhint                  # Install HTMLHint into the container
-    - npx htmlhint --version                           # Verify the version, useful for troubleshooting
-    - npx htmlhint build/                              # Lint all markdown files in blog/ and docs/
+    - npm install --save-dev htmlhint
+    - npx htmlhint --version
+    - npx htmlhint build/
+  rules:
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'  # Run for all changes to a merge request's source branch
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH       # Run for all changes to the default branch
 
 pages:
   stage: deploy
   dependencies:
-    - build-job        # Only fetch artifacts from `build-job`
+    - build-job
   script:
     - mv build/ public/
   artifacts:
     paths:
       - "public/"
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH      # Run for all changes to the default branch only
