@@ -3,47 +3,50 @@ stages:
   - test
   - deploy
 
-build-job:
-  stage: build
+default:               # Add a default section to define the `image` keyword's default value
   image: node
+
+.standard-rules:       # Make a hidden job to hold the common rules
+  rules:
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+build-job:
+  extends:
+    - .standard-rules  # Reuse the configuration in `.standard-rules` here
+  stage: build
   script:
     - npm install
     - npm run build
   artifacts:
     paths:
       - "build/"
-  rules:
-    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'  # Run for all changes to a merge request's source branch
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH       # Run for all changes to the default branch
 
 lint-markdown:
   stage: test
-  image: node
+  extends:
+    - .standard-rules  # Reuse the configuration in `.standard-rules` here
   dependencies: []
   script:
     - npm install markdownlint-cli2 --global
     - markdownlint-cli2 -v
     - markdownlint-cli2 "blog/**/*.md" "docs/**/*.md"
   allow_failure: true
-  rules:
-    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'  # Run for all changes to a merge request's source branch
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH       # Run for all changes to the default branch
 
 test-html:
   stage: test
-  image: node
+  extends:
+    - .standard-rules  # Reuse the configuration in `.standard-rules` here
   dependencies:
     - build-job
   script:
     - npm install --save-dev htmlhint
     - npx htmlhint --version
     - npx htmlhint build/
-  rules:
-    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'  # Run for all changes to a merge request's source branch
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH       # Run for all changes to the default branch
 
 pages:
   stage: deploy
+  image: busybox       # Override the default `image` value with `busybox`
   dependencies:
     - build-job
   script:
@@ -52,4 +55,4 @@ pages:
     paths:
       - "public/"
   rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH      # Run for all changes to the default branch only
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
